@@ -1,0 +1,13 @@
+body { 
+    font-family: Arial, sans-serif; 
+} 
+  
+.header {
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/date-limite.png" type="image/png" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>DigiDates</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="">
+        <div class="navbar bg-primary header mb-3">
+            <img class="p-3" src="images/date-limite.png" width="100" alt="Date">
+            <h1> DigiDates</h1>
+        </div>
+        <div class="text-center">
+            <div class="row">
+              <div class="col mx-3">
+                <h1>Age calculation</h1>
+                <p class="text-primary">Calculate age for given date</p>
+                <div class="py-2">
+                    <label for="selected-date" class="form-label">Choose your date of birth :</label>
+                    <span id="age-error"></span>
+                    <input type="date" class="form-control" id="age-date">
+                    <button id="age-btn" type="button" class="btn btn-primary my-2">CONFIRM</button>
+                </div>
+                <div id="age-container" class="border border-primary rounded p-2">
+                    <h6 class="text-primary"> ** Info goes here ** </h6>
+
+                </div>
+              </div>
+
+              <div class="col mx-3">
+                <h1>Countodown</h1>
+                <p class="text-primary">How much time is left until day X?</p>
+                <div class="py-2">
+                    <label for="selected-date" class="form-label">Choose your:</label>
+                    <span id="countdown-error"></span>
+                    <input type="date" class="form-control" id="countdown-date">
+
+                    <button id="countdown-btn" type="button" class="btn btn-primary my-2">CONFIRM</button>
+                </div>
+                <div id="countdown-container" class="border border-primary rounded p-2">
+                    <h6 class="text-primary"> ** Info goes here ** </h6>
+                </div>
+              </div>
+
+                <!--<div class="col mx-3">
+                <h1>Public holidays in Germany</h1>
+              </div> -->
+
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js">  </script>   
+</body>
+</html>
