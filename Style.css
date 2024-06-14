@@ -1,13 +1,10 @@
 body { 
-    font-family: Arial, sans-serif; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 } 
-  
+
 .header {
-    padding: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: auto;
 }
-
-  
-
